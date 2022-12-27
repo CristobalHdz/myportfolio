@@ -1,14 +1,12 @@
-import Card from "@mui/material/Card";
-import Box from "@mui/material/Box";
-
-import classes from "./CardContainer.module.css";
+import "./CardContainer.css";
 
 const CardContainer = (props) => {
-  return <Box className={classes.cardcontainer}>
-    <Card>aaaaaa</Card>
-    <Card>aaaaaa</Card>
-    <Card>aaaaaa</Card>
-  </Box>;
+  return (
+    <div className="cardcontainer">
+      <div className="cardcontainer_header text-center">{props.title}</div>
+      <div className="cardcontainer_cardStyle">{props.children}</div>
+    </div>
+  );
 };
 
 export default CardContainer;

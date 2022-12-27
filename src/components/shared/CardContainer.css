@@ -1,0 +1,22 @@
+.cardcontainer {
+  font-family: "Cascadia", monospace;
+}
+
+.cardcontainer_header {
+  padding-top: 30px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.cardcontainer_cardStyle {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+}
+
+@media screen and (max-width: 1025px) {
+  .cardcontainer_cardStyle {
+    display: flex;
+    flex-flow: row wrap;
+  }
+}

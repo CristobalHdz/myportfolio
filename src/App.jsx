@@ -1,10 +1,11 @@
-import "./App.css";
-import AboutMe from "./components/AboutMe";
+// import "./App.css";
+
+import MainView from "./components/MainView/MainView";
 
 function App() {
   return (
     <div className="App">
-      <AboutMe />
+      <MainView />
     </div>
   );
 }
