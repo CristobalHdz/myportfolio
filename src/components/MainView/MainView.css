@@ -2,6 +2,55 @@
   scroll-behavior: smooth;
 }
 
+.cover {
+  background-image: url("../../assets/CoverImg.png");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.cover-text-wrapper {
+  font-family: "Inconsolata", monospace;
+  color: white;
+  width: 100%;
+  background-color: transparent;
+  margin: auto;
+}
+
+.cover-text {
+  width: 100%;
+  font-size: 30px;
+  margin: auto 20px auto auto;
+  text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+  .cover-text {
+    font-size: 60px;
+    width: 50%;
+    margin: auto 20px auto auto;
+    text-align:right;
+  }
+}
+
+.cover-btn-wrapper {
+  margin: auto auto 100px auto;
+}
+
+.scroll-btn {
+  background-color: transparent;
+  font-size: 70px;
+  color: #989ebb;
+  cursor: pointer;
+  height: 60px;
+  border: 0;
+  transform: rotate(135deg);
+}
+
 .about-me {
   background-color: #807f8f;
 }

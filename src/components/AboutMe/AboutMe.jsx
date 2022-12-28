@@ -6,7 +6,6 @@ const AboutMe = () => {
     <div>
       <CardContainer title="About Me">
         <CardComponent header="Who am I?">
-          <p>My name is Cristobal Hernandez. I am a front-end web developer</p>
           <p>
             Although I studied everything regarding logistics; I have always
             have an interest on software development.

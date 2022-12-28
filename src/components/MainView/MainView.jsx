@@ -1,4 +1,7 @@
+import { useRef } from "react";
+
 import Grid from "@mui/material/Grid";
+import Box from "@mui/material/Box";
 
 import AboutMe from "../AboutMe/AboutMe";
 import ContactInfo from "../ContactInfo/ContactInfo";
@@ -8,9 +11,29 @@ import NavBar from "../NavBar/Navbar";
 import "./MainView.css";
 
 const MainView = () => {
+  const ref = useRef(null);
+  const scrollHandler = () => {
+    ref.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <Grid container>
       <NavBar />
+
+      <Grid item xs={12}>
+        <Box className="cover">
+          <div className="cover-text-wrapper">
+            <p className="cover-text">
+              My name is Cristobal Hernandez. I am a front-end web developer
+            </p>
+          </div>
+          <div className="cover-btn-wrapper">
+            <button onClick={scrollHandler} className="scroll-btn">
+              ◥
+            </button>
+          </div>
+        </Box>
+      </Grid>
       {/* ABOUT ME */}
       <Grid
         item
@@ -19,6 +42,7 @@ const MainView = () => {
         paddingBottom="100px"
         alignContent="center"
         className="about-me"
+        ref={ref}
       >
         <AboutMe />
       </Grid>

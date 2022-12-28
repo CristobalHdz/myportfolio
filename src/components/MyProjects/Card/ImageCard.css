@@ -15,7 +15,8 @@
 }
 
 .img-container {
-  margin: 0 auto;
+  margin: auto;
+  margin-top: 15px;
 }
 
 img {
