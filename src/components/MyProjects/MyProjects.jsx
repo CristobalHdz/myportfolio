@@ -31,8 +31,8 @@ const earlyProjects = [
     id: 3,
     name: "Scheduler",
     image: Scheduler,
-    webpage: "https://cristobalhdz.github.io/Nutricipy/",
-    repository: "https://github.com/CristobalHdz/Nutricipy",
+    webpage: "https://cristobalhdz.github.io/Schedule_5thWK/",
+    repository: "https://github.com/CristobalHdz/Schedule_5thWK",
   },
 ];
 
