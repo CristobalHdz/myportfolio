@@ -1,7 +1,7 @@
 {
   "homepage": "http://https://cristobalhdz.github.io/myportfolio",
   "name": "my-portfolio",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
