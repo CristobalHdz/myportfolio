@@ -3,9 +3,11 @@
 }
 
 .cardcontainer_header {
-  padding-top: 30px;
   font-size: 50px;
   text-align: center;
+  margin: 30px auto;
+  padding: 10px;
+  color: #253741;
 }
 
 .cardcontainer_cardStyle {

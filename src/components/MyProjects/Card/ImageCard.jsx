@@ -5,7 +5,13 @@ const ImageCard = (props) => {
     <div className="card-container">
       <div className="product-card">
         <div className="img-container">
-          <img src={props.image} alt={props.name} />
+          <a href={props.webpage} target="_blank">
+            <img
+              src={props.image}
+              alt={props.name}
+              onClick={props.routeHandler}
+            />
+          </a>
         </div>
         <div className="product-info">
           <h2>{props.name}</h2>

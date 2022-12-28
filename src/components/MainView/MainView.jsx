@@ -7,6 +7,7 @@ import AboutMe from "../AboutMe/AboutMe";
 import ContactInfo from "../ContactInfo/ContactInfo";
 import MyProjects from "../MyProjects/MyProjects";
 import NavBar from "../NavBar/Navbar";
+import ProfilePic from "../../assets/ProfilePhoto.png";
 
 import "./MainView.css";
 
@@ -24,7 +25,8 @@ const MainView = () => {
         <Box className="cover">
           <div className="cover-text-wrapper">
             <p className="cover-text">
-              My name is Cristobal Hernandez. I am a web developer.
+              Cristobal Hernandez <br />
+              Web Developer
             </p>
           </div>
           <div className="cover-btn-wrapper">
@@ -75,6 +77,14 @@ const MainView = () => {
         <ContactInfo />
       </Grid>
       <Grid item xs={1} md={1} className="contact"></Grid>
+
+      <Grid item xs={12} className="image-style-wrapper">
+        <img
+          src={ProfilePic}
+          alt="My profile picture"
+          className="image-style"
+        />
+      </Grid>
     </Grid>
   );
 };

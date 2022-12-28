@@ -1,6 +1,7 @@
 .card-container {
   font-family: "Cascadia", monospace;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #fdfdfd;
+  box-shadow: 10px 5px 5px rgb(70, 69, 69);
   border-radius: 2%;
   width: 280px;
   margin: 20px auto;
@@ -12,6 +13,7 @@
   padding: 2%;
   flex-grow: 1;
   flex-basis: 16%;
+  margin-bottom: 20px;
 }
 
 .img-container {

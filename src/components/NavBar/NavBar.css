@@ -1,13 +1,13 @@
 .navbar-container {
-  --primary: #ffffff;
-  --dark: #2f3346;
+  --primary: black;
+  --secondary: #93a9b4;
+  --third: #5695b4;
   font-family: "Inconsolata", monospace;
   width: 100%;
- 
 }
 
 nav {
-  background-color: var(--dark);
+  background-color: white;
   color: var(--primary);
   height: 80px;
   display: flex;
@@ -45,8 +45,8 @@ nav {
 }
 
 .menu a:hover {
-  color: var(--dark);
-  background-color: var(--primary);
+  color: var(--primary);
+  background-color: var(--secondary);
 }
 
 .hamburger {
@@ -100,21 +100,20 @@ nav {
   width: 100vw;
   height: 100%;
   padding: 10px 0;
-  background-color: var(--dark);
 }
 .nav-dropdown a {
   padding: 8px 16px;
   margin: 0 16px;
   margin: 0 auto;
   text-decoration: none;
-  color: var(--primary);
+  color: var(--third);
   text-transform: uppercase;
   font-weight: 500;
   border-radius: 90px;
 }
 .nav-dropdown a:hover {
   color: var(--primary);
-  background-color: var(--dark);
+  background-color: var(--third);
 }
 
 @media (min-width: 768px) {

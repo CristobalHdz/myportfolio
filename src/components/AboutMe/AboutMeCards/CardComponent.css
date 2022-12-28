@@ -1,16 +1,17 @@
 .cardstyle {
   font-family: "Cascadia", monospace;
-  margin-top: 50px !important;
-  margin: auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  margin: 15px auto;
+  box-shadow: 10px 5px 5px rgb(70, 69, 69);
   padding: 0 30px;
   width: 300px;
-  height: 400px;
-  background-color: rgb(247, 241, 229);
+  height: max-content;
+  background-color: #100c0c;
+  color: white;
+  border-radius: 3%;
 }
 
 .card-header {
-  color: #3c3b7e;
+  color: white;
   text-align: center;
   font-weight: bold;
   margin: 10px auto;
@@ -19,19 +20,20 @@
 @media screen and (min-width: 1000px) and (max-width: 1179px) {
   .cardstyle {
     width: 280px;
+    margin: auto;
   }
 }
 
 @media screen and (min-width: 1180px) and (max-width: 1499px) {
   .cardstyle {
     width: 300px;
-    height: 360px;
+    margin: auto;
   }
 }
 
 @media screen and (min-width: 1500px) {
   .cardstyle {
     width: 400px;
-    height: 360px;
+    margin: auto;
   }
 }

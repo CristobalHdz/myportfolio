@@ -11,7 +11,7 @@ const contactInfo = [
     id: 1,
     name: "Email",
     info: "cristobalhdzch@gmail.com",
-    infoText: "cristobalhdzch@gmail.com",
+    infoText: "cristobalhdzch [at] gmail [dot] com",
     logo: Email,
   },
   {
@@ -41,16 +41,27 @@ const ContactInfo = () => {
   return (
     <div className="contact_wrapper p-5" id="contact_wrapper">
       <div className="contact_info text-white">
-        <p className="contact_me">Reach me out!</p>
+        <p className="contact_me">Reach Out!</p>
         <p className="contact_content">
           I'm currently open to new employment opportunities <br />
         </p>
         <div className="contact_areas">
           {contactInfo.map((data) => {
+            const mailProp = `mailto:${data.into}`;
             return (
               <p key={data.id}>
                 <img src={data.logo} alt={data.name} /> {data.name}:{" "}
-                {data.id < 4 && (
+                {data.id == 1 && (
+                  <a
+                    className="contact_link"
+                    href={mailProp}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {data.infoText}
+                  </a>
+                )}
+                {data.id < 4 && data.id > 1 && (
                   <a
                     className="contact_link"
                     href={data.info}

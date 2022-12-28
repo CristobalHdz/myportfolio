@@ -51,7 +51,7 @@ const profesionalProjects = [
   },
   {
     id: 6,
-    name: "Nexum Legal Landing Page",
+    name: "Nexum Landing Page",
     image: NexumLanding,
     webpage: "https://nexumlegal.com.mx/",
   },
@@ -66,7 +66,7 @@ const profesionalProjects = [
 const MyProjects = () => {
   return (
     <div>
-      <CardContainer title="Projects" />
+      <CardContainer title="Professional Work" />
       <div className="project-style">
         {profesionalProjects.map((data) => {
           return (
@@ -80,7 +80,7 @@ const MyProjects = () => {
           );
         })}
       </div>
-      <CardContainer title="Learning Projects" />
+      <CardContainer title="Personal Learning Projects" />
       <div className="project-style">
         {earlyProjects.map((data) => {
           return (
