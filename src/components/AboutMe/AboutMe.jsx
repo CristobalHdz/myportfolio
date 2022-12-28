@@ -17,8 +17,7 @@ const AboutMe = () => {
             <li>do some mountain biking</li>
             <li>do woodwork</li>
             <li>
-              take a walk and spend some time in the nature. I do my best
-              because I live in the desert
+              take a walk and spend some time in the nature
             </li>
           </ul>
         </CardComponent>
