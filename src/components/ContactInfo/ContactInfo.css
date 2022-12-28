@@ -1,9 +1,7 @@
 .contact_wrapper {
   display: flex;
-  flex-flow: row;
   font-family: "Inconsolata", monospace;
   justify-content: space-evenly !important;
-  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .contact_wrapper p {
@@ -15,10 +13,6 @@
   color: blue;
 }
 
-.contact_content,
-.contact_areas {
-  font-size: 20px;
-}
 
 .contact_wrapper img {
   width: 40px;
@@ -29,6 +23,7 @@
 @media screen and (max-width: 1235px) {
   .contact_wrapper {
     flex-wrap: wrap;
+    flex-flow: column;
   }
 
   .contact_info {
@@ -36,12 +31,12 @@
   }
 }
 
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 440px) {
   .contact_me {
     font-size: 40px;
   }
 
   .contact_link {
-    font-size: 75%;
+    font-size: 70%;
   }
 }

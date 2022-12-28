@@ -5,6 +5,23 @@ const AboutMe = () => {
   return (
     <div>
       <CardContainer title="About Me">
+        <CardComponent header="Who am I?">
+          <p>My name is Cristobal Hernandez. I am a front-end web developer</p>
+          <p>
+            Although I studied everything regarding logistics; I have always
+            have an interest on software development.
+          </p>
+          <p>When I am not developing, I like to go to: </p>
+          <ul>
+            <li>the gym</li>
+            <li>do some mountain biking</li>
+            <li>do woodwork</li>
+            <li>
+              take a walk and spend some time in the nature. I do my best
+              because I live in the desert
+            </li>
+          </ul>
+        </CardComponent>
         <CardComponent header="Education">
           <p>
             December 2021 <br />

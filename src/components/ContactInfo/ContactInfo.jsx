@@ -18,7 +18,7 @@ const contactInfo = [
     id: 2,
     name: "LinkedIn",
     info: "https://www.linkedin.com/in/cristobalhernandezch/",
-    infoText: "linkedin.com/in/cristobalhernandezch",
+    infoText: "linkedin.com/in/CrisHdzCh",
     logo: Linkedin,
   },
   {
