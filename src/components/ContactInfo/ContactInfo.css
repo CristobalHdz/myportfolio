@@ -1,0 +1,47 @@
+.contact_wrapper {
+  display: flex;
+  flex-flow: row;
+  font-family: "Inconsolata", monospace;
+  justify-content: space-evenly !important;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.contact_wrapper p {
+  display: flex;
+  align-items: center;
+}
+
+.contact_wrapper a {
+  color: blue;
+}
+
+.contact_content,
+.contact_areas {
+  font-size: 20px;
+}
+
+.contact_wrapper img {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 1235px) {
+  .contact_wrapper {
+    flex-wrap: wrap;
+  }
+
+  .contact_info {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .contact_me {
+    font-size: 40px;
+  }
+
+  .contact_link {
+    font-size: 75%;
+  }
+}
