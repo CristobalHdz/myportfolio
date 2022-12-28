@@ -1,10 +1,10 @@
-import CardContainer from "../Shared/CardContainer";
-import CardComponent from "./AboutMeCards/CardComponent";
+import CardContainer from "../AboutMeCards/CardContainer";
+import CardComponent from "../AboutMeCards/CardComponent";
 
 const AboutMe = () => {
   return (
     <div>
-      <CardContainer title="About Me">
+      <CardContainer  title="About Me">
         <CardComponent header="Education">
           <p>
             December 2021 <br />

@@ -1,0 +1,46 @@
+.card-container {
+  font-family: "Cascadia", monospace;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 2%;
+  width: 280px;
+  margin: 20px auto;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+}
+
+.img-container {
+  margin: 0 auto;
+}
+
+img {
+  height: 150px;
+  border-radius: 2%;
+  max-width: 238px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-style: outset;
+  width: 150px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-container a {
+  color: black;
+  font-weight: bold;
+  margin: 5px 0;
+}
