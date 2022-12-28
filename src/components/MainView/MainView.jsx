@@ -24,7 +24,7 @@ const MainView = () => {
         <Box className="cover">
           <div className="cover-text-wrapper">
             <p className="cover-text">
-              My name is Cristobal Hernandez. I am a front-end web developer
+              My name is Cristobal Hernandez. I am a web developer.
             </p>
           </div>
           <div className="cover-btn-wrapper">

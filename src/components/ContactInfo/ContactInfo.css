@@ -2,6 +2,14 @@
   display: flex;
   font-family: "Inconsolata", monospace;
   justify-content: space-evenly !important;
+  margin-bottom: 50px;
+}
+
+.contact_me {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: 0;
 }
 
 .contact_wrapper p {
@@ -23,6 +31,7 @@
   .contact_wrapper {
     flex-wrap: wrap;
     flex-flow: column;
+    align-items: center;
   }
 
   .contact_info {

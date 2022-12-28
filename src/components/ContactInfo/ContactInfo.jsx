@@ -41,7 +41,7 @@ const ContactInfo = () => {
   return (
     <div className="contact_wrapper p-5" id="contact_wrapper">
       <div className="contact_info text-white">
-        <h3 className="contact_me">Reach me out!</h3>
+        <p className="contact_me">Reach me out!</p>
         <p className="contact_content">
           I'm currently open to new employment opportunities <br />
         </p>
